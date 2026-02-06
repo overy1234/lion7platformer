@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639057751703602358
-    m_Hash: 1126879547
+      ticks: 639059469549680928
+    m_Hash: 1466765460
   m_LockFileStatus:
     m_FilePath: C:/lion7project/lion7platformer/katana7/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639057752314989560
-    m_Hash: 1760045790
+      ticks: 639059470066486414
+    m_Hash: 680645407
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/lion7project/lion7platformer/katana7/Packages
-m_EditorVersion: 6000.3.2f1 (a9779f353c9b)
+m_EditorVersion: 6000.3.7f1 (696ec25a53d1)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@13.0.2
+- packageId: com.unity.2d.animation@13.0.4
   testable: 0
   isDirectDependency: 1
-  version: 13.0.2
+  version: 13.0.4
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.animation@3c53dae92956
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.animation@7396d8477ca9
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -195,14 +195,12 @@ m_ResolvedPackages:
     - 15.0.0
     - 15.0.1
     compatible:
-    - 13.0.2
-    - 13.0.3
     - 13.0.4
     recommended: 13.0.4
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -213,9 +211,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -264,16 +262,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638990587840330000
+  datePublishedTicks: 639046578429950000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 8bf1079cdd627cb76fad4a3267f28d8890fcd5db
+    revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 13.0.2
+    version: 13.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -284,18 +282,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fix chain length in FABRIK and CCD IK
-    Solvers to not exceed the number of connected bones. (DANB-1119)\n- Prevent overlap
-    between label and object field, and ellipsize long names (DANB-1154)\n- Ask whether
-    to save when Editor Theme or Editor Font changes and there are unsaved changes
-    in Sprite Library Editor (DANB-1165)\n- Fix bone drag and drop to preserve skeleton-wide
-    order in Visibility window. (DANB-1120)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fix unused separation line is used in
+    the Context Menu of the Sprite Library Editor Window (DANB-1226)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3c53dae9295646dd95f73b885ea361caab35fbd4
+  fingerprint: 7396d8477ca93349104292dd0d2c0df8d8ad4c21
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 13.0.2
+    minimumPackageVersion: 13.0.4
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -370,9 +375,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -452,6 +457,17 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"### Changed\n- Switched the internals from using custom
     common package, to make use of the 2D Common package."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 809e3a168ff77eff802b4b24c10cf6254618245a
@@ -595,9 +611,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -676,6 +692,17 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Changed\n- Exclude empty layers from import.\n\n###
     Fixed\n- Fix null reference exception occurs when importing psd without visible
     layers. (DANB-1155)\n- Correct layer mask position relative to its layer. (DANB-1177)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 9abe0f7cac7effda42d93c33a6c35134cca1bee3
@@ -756,6 +783,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 82f01c8c75ca2d707990e8dc249b71ab7d1aa33e
@@ -904,9 +942,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -986,6 +1024,17 @@ m_ResolvedPackages:
     Shape Profile Asset icon which was low quality and blurry in Project window\n-
     Use EditorUtility.EntityIdToObject instead of EditorUtility.InstanceIDToObject
     which is deprecated. (DANB-1042)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 0738bab116473980325be8cdb7c3c42ab6961778
@@ -1004,7 +1053,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.tilemap@28bd01071fd5
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.tilemap@2428aeee2f73
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1085,9 +1134,20 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 28bd01071fd506c5971fc0dec78c4d32c10f1024
+  fingerprint: 2428aeee2f739ba27e841f87bdc993170fe923b9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1256,6 +1316,17 @@ m_ResolvedPackages:
     a Rule is added to an empty RuleTile, removed and added again.\n- [AutoTileEditor]
     Fix minimum texture scale size when texture is smaller than 256 pixels\n- [AutoTileEditor]
     Fix texture display when texture is removed from AutoTile"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 3dde84bf38677b4165ad5f568b353d4ba942d63c
@@ -1269,12 +1340,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.tooling@1.0.0
+- packageId: com.unity.2d.tooling@1.0.2
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 1.0.2
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.tooling@55ff0338cdce
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.tooling@249995156768
   assetPath: Packages/com.unity.2d.tooling
   name: com.unity.2d.tooling
   displayName: 2D Tooling
@@ -1295,21 +1366,19 @@ m_ResolvedPackages:
     - 2.0.0
     - 3.0.0
     compatible:
-    - 1.0.0
-    - 1.0.1
     - 1.0.2
     recommended: 1.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -1356,16 +1425,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638956665254340000
+  datePublishedTicks: 639046578438370000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tooling@1.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
+    revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1376,16 +1445,24 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed All Sprite Atlas report not showing
-    correct total memory size. (DANB-1066)\n- Fixed All Sprite Atlas reporting columns
-    data not showing sensible data.\n- Fixed redundant revert button on report settings.\n-
-    Fixed obsolete usage of API."}'
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 55ff0338cdce2a73e936a6c2bad0fb9581330a6f
+  fingerprint: 2499951567687634a16f41e9f26ee5dfeb8f8da6
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
+    minimumPackageVersion: 1.0.2
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -1393,12 +1470,255 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.10.2
+- packageId: com.unity.cinemachine@3.1.5
   testable: 0
   isDirectDependency: 1
-  version: 2.10.2
+  version: 3.1.5
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.cinemachine@5342685532bb
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nCinemachine 3 is
+    a newer and better version of Cinemachine, but upgrading an existing project
+    from 2.X will likely require some effort.  If you're considering upgrading an
+    older project, please see our upgrade guide in the user manual."
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.6.9
+    - 2.6.10
+    - 2.6.11
+    - 2.6.14
+    - 2.6.15
+    - 2.6.17
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    - 2.8.3
+    - 2.8.4
+    - 2.8.6
+    - 2.8.9
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    - 2.9.7
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.10.3
+    - 2.10.4
+    - 2.10.5
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    compatible:
+    - 2.10.5
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    recommended: 3.1.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.splines
+    version: 2.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.splines
+    version: 2.8.2
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.1
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638968175541830000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: d7806ea0a8dabee74ce34a8d2d2cfa659d729046
+    path: 
+  unityLifecycle:
+    version: 2.10.5
+    nextVersion: 
+    recommendedVersion: 3.1.0
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Bugfixes\n- Correct blend time was not always used
+    when backing out of a blend-in-progress.\n- CinemachineVolumeSettings: changes
+    to Focal Length and Aperture settings were not being applied while auto-focus
+    was enabled.\n- InheritPosition was not inheriting the camera position in all
+    cases.\n- Rotation Composer damping was not being applied when the Orbital Follow''s
+    Binding Mode was Lazy Follow.\n- GroupFraming extension did not respect PreviousStateIsValid
+    flag, so could not be reset dynamically.\n- When blending between a 3rdPerson
+    camera without a look-at target and a camera with a look-at target, the blend
+    was incorrect.\n- ForceCameraPosition was not working properly for LazyFollow
+    cameras.\n- Teleporting a camera with a nonzero Target Offset was not smooth.\n-
+    Exceptions were sometimes generated when an OrbitalFollow component was deleted.\n-
+    Input Axis Controller was losing user input after a play-mode domain reload.\n-
+    Input Axis Controller was not always reading composite actions correctly.\n-
+    CinemachineConfiner2D.BakeBoundingShape() was leaving confiner with a not-fully-baked
+    shape.\n\n### Added\n- Added `CinemachineConfiner2D.CameraWasDisplaced()` and
+    `CinemachineConfiner2D.GetCameraDisplacementDistance()` methods.\n- Added `InputAxisControllerBase.GetController()`
+    method, to conveniently fetch an Input Controller having a specific name.\n-
+    Added `InputAxisControllerBase.TriggerRecentering()` to trigger recentering of
+    an axis having a specific name.\n- Added \"Recenter\" button to input axis inspector,
+    to immediately center the axis.\n- Added PerspectiveToOrthoCustomBlend sample
+    scene.\n- Added new Portals sample scene to illustrate camera teleportation.\n\n###
+    Changed\n- Input Axis recentering only operates when the game is playing."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 5342685532bbf7fa5b3a314c0b7ddba04ff17eff
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.10.5
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collab-proxy@2.11.3
+  testable: 0
+  isDirectDependency: 1
+  version: 2.11.3
+  source: 1
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -1502,10 +1822,8 @@ m_ResolvedPackages:
     - 2.11.2
     - 2.11.3
     compatible:
-    - 2.10.2
-    - 2.11.2
     - 2.11.3
-    recommended: 2.10.2
+    recommended: 2.11.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -1540,16 +1858,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638981091640640000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.10/manual/index.html
+  datePublishedTicks: 639047683637960000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 53b710e518c9aaa47eeb059db533c0588530450f
+    revision: 23b6a337b59c8ad04d7b78f38448ad0addcb7954
     path: 
   unityLifecycle:
-    version: 2.10.2
+    version: 2.11.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1560,17 +1878,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the Toolbar button icon that was
-    not visible for uncontrolled projects for Editor older than Unity 6.3.\n- Fixed
-    the Pending changes view that was refreshed on window activation for no reason.\n-
-    Fixed Library folder that was sometimes wrongly added to source control on a
-    new project created from the Hub."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed accessing Editor internals directly
+    on versions below Unity 6.3.\n- Fixed a compilation error caused by an invalid
+    duplicated GUID in WaitForPendingOperations.cs.meta in 2.11.2."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad
+  fingerprint: e566cd3e762373591f6828e86f2018eed8021356
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.10.2
+    minimumPackageVersion: 2.11.3
     minimumUnityVersion: 2021.3.0f1
   compliance:
     status: 0
@@ -1578,12 +1905,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.38
+- packageId: com.unity.ide.rider@3.0.39
   testable: 0
   isDirectDependency: 1
-  version: 3.0.38
+  version: 3.0.39
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1649,7 +1976,6 @@ m_ResolvedPackages:
     - 3.0.38
     - 3.0.39
     compatible:
-    - 3.0.38
     - 3.0.39
     recommended: 3.0.39
     deprecated:
@@ -1676,16 +2002,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638938045127600000
+  datePublishedTicks: 639045875071620000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
+    revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
     path: 
   unityLifecycle:
-    version: 3.0.38
+    version: 3.0.39
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1696,14 +2022,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- fix a regression, introduced in 3.0.37. New files
-    are not added in the project."}'
+  upmReserved: '{"changelog":"- fix the indent of the LinkButton\n- fix project generation
+    to avoid attempts to restore NuGet packages (with some of the MSBuild versions)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
+  fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.38
+    minimumPackageVersion: 3.0.39
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1711,12 +2048,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.visualstudio@2.0.25
+- packageId: com.unity.ide.visualstudio@2.0.26
   testable: 0
   isDirectDependency: 1
-  version: 2.0.25
+  version: 2.0.26
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1759,14 +2096,15 @@ m_ResolvedPackages:
     - 2.0.23
     - 2.0.25
     - 2.0.26
+    - 2.0.27
     compatible:
-    - 2.0.25
     - 2.0.26
-    recommended: 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
     version: 1.6.0
@@ -1792,16 +2130,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638954434425230000
+  datePublishedTicks: 639014773899080000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 3765e21a94ea1100e4b377121dbf771c3cbd874a
+    revision: a52ff32ff9e8cf43be6597597939ef63126ab463
     path: 
   unityLifecycle:
-    version: 2.0.25
+    version: 2.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1812,14 +2150,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Internal:\n\n- Fixes for release validation and release
-    process"}'
+  upmReserved: '{"changelog":"Integration:\n\n- Fix handling of asset-pipeline refresh-mode
+    setting.\n\nProject generation:\n\n- Add `EnableOnDemandExcludedFolderLoading`
+    capability when generating SDK-Style project."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 74aa435fc4bb41890f400130ec80f271d1292fd4
+  fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.25
+    minimumPackageVersion: 2.0.26
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1827,12 +2177,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.inputsystem@1.17.0
+- packageId: com.unity.inputsystem@1.18.0
   testable: 0
   isDirectDependency: 1
-  version: 1.17.0
+  version: 1.18.0
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.inputsystem@02433b2481ab
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.inputsystem@57d0e36f6123
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1909,9 +2259,8 @@ m_ResolvedPackages:
     - 1.17.0
     - 1.18.0
     compatible:
-    - 1.17.0
     - 1.18.0
-    recommended: 1.17.0
+    recommended: 1.18.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -1953,16 +2302,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638997348789550000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html
+  datePublishedTicks: 639039807602510000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.18/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 672e42ce4f76a7086fb09e24d5236e5f71336bd6
+    revision: c0d61169c3ccce912ce6a8dec13a30e6e35fdeb8
     path: 
   unityLifecycle:
-    version: 1.17.0
+    version: 1.18.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1973,25 +2322,33 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Project-Wide Input Actions support can
-    no longer be compiled out (removed the `UNITY_INPUT_SYSTEM_PROJECT_WIDE_ACTIONS`
-    define). (ISX-2397)\n- Removed code that had to do with Unity versions older
-    than Unity 2022.3 LTS. (ISX-2396)\n- Auto-save on focus lost can no longer be
-    compiled out (ISX-2397)\n- Deprecated the `USE_IMGUI_EDITOR_FOR_ASSETS` feature
-    option (ISX-2397)\n\n### Fixed\n- An issue where a UITK MouseEvent was triggered
-    when changing from Scene View to Game View in the Editor has been fixed. [ISXB-1671](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1671)\n-
-    Fix documentation error in file AndroidGameController.cs mentioning a wrong controller.
-    [DOCATT-9806]\n- Deferred auto-registration of processors, interactions and composite
-    binding types referenced by `InputActionAsset`\n  to only happen once when an
-    unresolved type reference is found in an action definition. This avoids reflective\n 
-    type loading from assemblies for all cases where the Input System is not extended.
-    (ISXB-1766)."}'
+  upmReserved: '{"changelog":"### Changed\n\n- Updated documentation to reflect that
+    the OnMouse MonoBehaviour events are now supported in Unity 6.4 and above.\n-
+    Updated the supported devices documentation to clarify that touchscreens are
+    supported on Linux.\n- Updated documentation to reflect PS5 controller support
+    on Linux.\n\n### Fixed\n\n- Fixed add buttons use add icon in input actions window
+    (ISX-2340)\n- Fixed warnings being generated on Unity 6.4 and 6.5. (ISX-2395).\n-
+    Fixed extra empty lines being displayed in the control binding list when mouse
+    buttons are pressed [ISXB-1677](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1677)\n-
+    Fixed InputActionReference not being set when attempting to set it on a Prefab
+    or ScriptableObject [ISXB-1787](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1787)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 02433b2481abc5c0063956fdc211f3d8c777447f
+  fingerprint: 57d0e36f61231bc5a2579f37d81bf6fa02f40adc
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.17.0
+    minimumPackageVersion: 1.18.0
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -2082,6 +2439,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
@@ -2100,7 +2468,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.3.0
   source: 2
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.render-pipelines.universal@66e99ffa09c7
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.render-pipelines.universal@a6e30d1f59f5
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2133,7 +2501,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -2207,9 +2575,20 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 66e99ffa09c79634ca0cee3b85e3b9f6cdf88c0e
+  fingerprint: a6e30d1f59f5364f0f32d5b542626a3743ae75b6
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -2297,6 +2676,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 0b7a23ab2e1d74441a5afdffa63f417929756957
@@ -2310,12 +2700,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.9
+- packageId: com.unity.timeline@1.8.10
   testable: 0
   isDirectDependency: 1
-  version: 1.8.9
+  version: 1.8.10
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2421,7 +2811,6 @@ m_ResolvedPackages:
     - 1.8.9
     - 1.8.10
     compatible:
-    - 1.8.9
     - 1.8.10
     recommended: 1.8.10
     deprecated: []
@@ -2464,16 +2853,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638900049118440000
+  datePublishedTicks: 639010941520280000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
+    revision: a83681b24217526a0f539d70ddca4abf270a5ada
     path: 
   unityLifecycle:
-    version: 1.8.9
+    version: 1.8.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2484,26 +2873,28 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added profiler markers for Timeline
-    graph creation and evaluation. (ATL-2108)\n\n### Fixed\n\n- Fix custom implementation
-    of AnimationTrack not being able to record and not having access to AnimationTrack
-    actions through the context menu. (TB-333)\n- Fix an issue where custom Tracks
-    and Clips Editors code is marked as unused in Rider even when they are associated
-    with a specific Clip or Track Asset. (TB-334)\n- Fix and issue where a clip Inspector
-    with an embedded playable asset inspector can leak when selection changes with
-    2 inspector windows opened. (TB-324)\n- Fix Editing Track label while Track is
-    selected makes text lose the white color. (TB-336)\n- Maximizing and Restoring
-    the Timeline Window will now keep editing the previous Timeline (TB-289)\n- Added
-    a warning when trying to add a custom track whose class name would not match
-    the file name. (TB-329)\n- Fixed an issue where timeline duration incorrectly
-    included tracks muted via hierarchy. (TB-326)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix compilation error for version 2023.2
+    of the editor (TB-352)\n- Fixed an issue where it was possible for 2 clips to
+    have a micro overlap that was not detected as a blend, resulting in both clips
+    playing at the same time with a weight of one. (TB-345)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
+  fingerprint: 7f8b2fb101b6053cc7472330401e94ff0c17b204
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.9
-    minimumUnityVersion: 2021.3
+    minimumPackageVersion: 1.8.10
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
@@ -2515,20 +2906,20 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.ugui@52e65280e89e
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.ugui@11343a6274f3
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
-  displayName: Unity UI
+  displayName: uGUI
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: "Unity UI is a set of tools for developing user interfaces for games
-    and applications. It is a GameObject-based UI system that uses Components and
-    the Game View to arrange, position, and style user interfaces. \u200B You cannot
-    use Unity UI to create or change user interfaces in the Unity Editor."
+  description: "uGUI (Unity UI) is a set of tools for developing user interfaces
+    for games and applications. It is a GameObject-based UI system that uses Components
+    and the Game View to arrange, position, and style user interfaces. \u200B You
+    cannot use Unity UI to create or change user interfaces in the Unity Editor."
   errors: []
   versions:
     all:
@@ -2593,9 +2984,20 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 52e65280e89ee09a5b287dc793f9464bcd213b41
+  fingerprint: 11343a6274f3066606b12fe045bb4fd815279686
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -2720,6 +3122,17 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Fixed\n- Fixed broken links to example codes in
     API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
     to increase accessibility for screen readers."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a
@@ -2738,7 +3151,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2797,6 +3210,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2815,7 +3239,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.adaptiveperformance
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -2880,6 +3304,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2898,7 +3333,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2957,6 +3392,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2975,7 +3421,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3033,6 +3479,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3051,7 +3508,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3110,6 +3567,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3128,7 +3596,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3187,6 +3655,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3205,7 +3684,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3264,6 +3743,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3282,7 +3772,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3345,6 +3835,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3363,7 +3864,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3430,6 +3931,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3448,7 +3960,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3507,6 +4019,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3525,7 +4048,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3584,6 +4107,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3602,7 +4136,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3661,6 +4195,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3679,7 +4224,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3738,6 +4283,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3756,7 +4312,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3815,6 +4371,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3833,7 +4400,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3892,6 +4459,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3910,7 +4488,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3973,6 +4551,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3991,7 +4580,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4050,6 +4639,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4068,7 +4668,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4135,6 +4735,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4153,7 +4764,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4215,6 +4826,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4233,7 +4855,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4292,6 +4914,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4310,7 +4943,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4389,6 +5022,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4407,7 +5051,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4466,6 +5110,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4484,7 +5139,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4550,6 +5205,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4568,7 +5234,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4627,6 +5293,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4645,7 +5322,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4712,6 +5389,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4730,7 +5418,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4797,6 +5485,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4815,7 +5514,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4882,6 +5581,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4900,7 +5610,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4983,6 +5693,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5001,7 +5722,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vectorgraphics
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -5079,6 +5800,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5097,7 +5829,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5160,6 +5892,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5178,7 +5921,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5249,6 +5992,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5267,7 +6021,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5341,6 +6095,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5359,7 +6124,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -5418,6 +6183,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5436,7 +6212,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -5507,6 +6283,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5525,7 +6312,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -5588,6 +6375,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5606,7 +6404,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -5665,6 +6463,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5745,6 +6554,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
@@ -5763,7 +6583,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.render-pipelines.core@ce86d16dfe9d
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.render-pipelines.core@d6dfd1e235d5
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5805,7 +6625,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -5867,9 +6687,20 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: ce86d16dfe9d627973eff1e9329caf16c648363c
+  fingerprint: d6dfd1e235d5156d31265ad0c7f00bd8d46c5154
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -5885,7 +6716,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.shadergraph@3cfe1d1f3f8c
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.shadergraph@0afb4c072efd
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5917,7 +6748,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -5981,9 +6812,20 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3cfe1d1f3f8cb2a422448449ea422fa1a226fded
+  fingerprint: 0afb4c072efdba89e08dbb31a65a9ccba781e413
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -6025,7 +6867,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6087,6 +6929,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
@@ -6100,12 +6953,144 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.common@12.0.1
+- packageId: com.unity.splines@2.8.2
   testable: 0
   isDirectDependency: 0
-  version: 12.0.1
+  version: 2.8.2
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.common@51e9484895c4
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.splines@1cb7d86fc7ff
+  assetPath: Packages/com.unity.splines
+  name: com.unity.splines
+  displayName: Splines
+  author:
+    name: 
+    email: 
+    url: 
+  category: Tool
+  type: 
+  description: Work with curves and paths. Use the Splines package to generate objects
+    and behaviors along paths, create trajectories, and draw shapes.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 1.0.0-pre.5
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0
+    - 2.4.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    - 2.7.1
+    - 2.7.2
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    compatible:
+    - 2.8.2
+    recommended: 2.8.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.1
+  keywords:
+  - spline
+  - curve
+  - path
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638935739205640000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
+    revision: 43fe6df748a4819ca8492b7d90662923a31d488f
+    path: 
+  unityLifecycle:
+    version: 2.8.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- [DOCATT-4646], [DOCATT-5603], [DOCATT-7045],
+    [DOCATT-5044], [DOCATT-6376], [DOCATT-6626] Clarified API documentation following
+    user feedback.\n- [SPLB-360] Fixed a bug when selecting the clear component option,
+    resulting in out of range exception\n- [SPLB-361] Fixed a bug where the spline
+    would not animate with Scene/Domain reload disabled upon entering playmode\n-
+    [SPLB-356] Fixed a bug where a null reference exception would occur after baking
+    a SplineInstantiate component and then pressing Undo."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 1cb7d86fc7ffee63824ca302b2b8982178eeea83
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.8.2
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.common@12.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 12.0.2
+  source: 1
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.2d.common@800085e896ad
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6195,7 +7180,6 @@ m_ResolvedPackages:
     - 13.0.1
     - 14.0.0
     compatible:
-    - 12.0.1
     - 12.0.2
     recommended: 12.0.2
     deprecated: []
@@ -6216,7 +7200,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6264,16 +7248,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638956665186900000
+  datePublishedTicks: 639046578402730000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
+    revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 12.0.1
+    version: 12.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6284,15 +7268,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added internal access for the Aseprite
-    Importer.\n- Added retrieving of texture storage size."}'
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 51e9484895c4b91b39650e3ee34a014a63860080
+  fingerprint: 800085e896ad4b33b2dc3739891463543ac489d1
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.1
-    minimumUnityVersion: 6000.3.0a1
+    minimumPackageVersion: 12.0.2
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
@@ -6386,6 +7380,17 @@ m_ResolvedPackages:
     builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
     and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
     Updated minimum editor version to 2021.3"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 19a9377c4ffa59370edad3e6a34e4445529badde
@@ -6518,7 +7523,7 @@ m_ResolvedPackages:
     version: 3.0.3
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.26
+    version: 1.8.27
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6574,6 +7579,17 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"### Changed\n\n* Updated Burst dependency to version
     1.8.23."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: aea9d3bd5e19f2a90fc3a39919974a5f3613a159
@@ -6671,6 +7687,17 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
     Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
@@ -6684,12 +7711,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.burst@1.8.26
+- packageId: com.unity.burst@1.8.27
   testable: 0
   isDirectDependency: 0
-  version: 1.8.26
+  version: 1.8.27
   source: 1
-  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.burst@21aa83e7fd8f
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.burst@973857688024
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6848,7 +7875,6 @@ m_ResolvedPackages:
     - 1.8.27
     - 1.8.28
     compatible:
-    - 1.8.26
     - 1.8.27
     - 1.8.28
     recommended: 1.8.28
@@ -6879,16 +7905,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638996703344130000
+  datePublishedTicks: 639014373111530000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 78a5cce909c0faf2e0a4f984fdf94e27f8b0745b
+    revision: eaf781d05ea047ecc656c7ff7ccfd01e75e12e51
     path: 
   unityLifecycle:
-    version: 1.8.26
+    version: 1.8.27
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6899,25 +7925,128 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Enable Burst on Web Platform\n- Enabled
-    Apple Hardened Runtime for Burst runtime libraries.\n- Burst now supports `typeof`
-    comparison - e.g. `if (typeof(int) == typeof(T))`. `GetType()` remains invalid
-    in Burst-compiled code, and all other members on `Type` instances remain invalid,
-    but equality (`==`) and inequality (`!=`) are now supported for types created
-    via `typeof`. These comparisons compile to compile-time constants.\n\n### Removed\n\n###
-    Changed\n\n### Fixed\n- An issue where the rendering in the inspector would break
-    down on Very large listings.\n- Fixed Windows runtime executable digital signatures,
-    eliminating any false-positive antivirus hits.\n- [PLAT-15945](https://jira.unity3d.com/browse/PLAT-15945):
-    Embedded Linux target triplets for Editor version 6.4\n- Fix crash during inlining
-    optimisation. Ensure inlines are removed when they are no longer valid.\n\n###
-    Known Issues\n\n### Purpose"}'
+  upmReserved: '{"changelog":"### Added\n\n### Removed\n\n### Changed\n- Changed
+    minimum Editor version to 2022.3.\n\n### Fixed\n- Fixed Burst runtime Mac binaries
+    not being signed.\n- Fixed a bug where `Span<T>.Fill` used with spans of smaller-than-int
+    integer types would cause out-of-bounds writes (leading to data corruption and
+    segfaults)\n\n### Known Issues\n\n### Purpose"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 21aa83e7fd8fcc79eafc5f662d434afb183153d6
+  fingerprint: 973857688024e0c6019b60f7a3b403e8e467c4d0
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.26
-    minimumUnityVersion: 2021.3
+    minimumPackageVersion: 1.8.27
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.settings-manager@2.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.1
+  source: 1
+  resolvedPath: C:\lion7project\lion7platformer\katana7\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0
+    - 2.1.1
+    compatible:
+    - 2.1.1
+    recommended: 2.1.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638956174685890000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 6eb5ed85eaf3276cc09f0cc4fc3311c72f0fc196
+    path: 
+  unityLifecycle:
+    version: 2.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changes\n\n- Enable Auto Reference on main assembly.\n\n###
+    Bug Fixes\n\n- [case: PBLD-56] Added tooltip to \"Options\" gear icon to specify
+    that context menu items are relevant only to the selected category."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 0b8638c5ce86009d785da17b17aaf629047f64ce
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.1.1
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
@@ -7005,6 +8134,17 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"* This is a verified release of the com.unity.nuget.mono-cecil
     with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch
     from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: ecb9724e46fff855c46a4f37f0a3377a3cfffc06
@@ -7148,6 +8288,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: '{"changelog":"### Added\n\n- Improved render threading mode reporting"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 0840f58e45624f7677679a0f8b6a5137689e607f
@@ -7161,4 +8312,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 46fb22065bf3d297b1be7dce9a081c0af7d241f8
+m_BuiltInPackagesHash: ca7f94192635682fb88813031e06e0aa9ebea9dc

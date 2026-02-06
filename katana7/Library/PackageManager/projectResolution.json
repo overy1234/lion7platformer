@@ -1,21 +1,21 @@
 {
   "context": {
     "projectPath": "C:/lion7project/lion7platformer/katana7/Packages",
-    "unityVersion": "6000.3.2f1"
+    "unityVersion": "6000.3.7f1"
   },
   "inputs": [
     "C:\\lion7project\\lion7platformer\\katana7\\Packages\\manifest.json",
     "C:\\lion7project\\lion7platformer\\katana7\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.7f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.2d.animation@13.0.2": {
+    "com.unity.2d.animation@13.0.4": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.animation@3c53dae92956",
-      "fingerprint": "3c53dae9295646dd95f73b885ea361caab35fbd4",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.animation@7396d8477ca9",
+      "fingerprint": "7396d8477ca93349104292dd0d2c0df8d8ad4c21",
       "editorCompatibility": "6000.3.0a2",
-      "version": "13.0.2",
+      "version": "13.0.4",
       "source": "registry",
       "testable": false
     },
@@ -62,8 +62,8 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.tilemap@28bd01071fd5",
-      "fingerprint": "28bd01071fd506c5971fc0dec78c4d32c10f1024",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73",
+      "fingerprint": "2428aeee2f739ba27e841f87bdc993170fe923b9",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -79,53 +79,63 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.tooling@1.0.0": {
+    "com.unity.2d.tooling@1.0.2": {
       "name": "com.unity.2d.tooling",
       "displayName": "2D Tooling",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.tooling@55ff0338cdce",
-      "fingerprint": "55ff0338cdce2a73e936a6c2bad0fb9581330a6f",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.tooling@249995156768",
+      "fingerprint": "2499951567687634a16f41e9f26ee5dfeb8f8da6",
       "editorCompatibility": "6000.3.0a2",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.collab-proxy@2.10.2": {
+    "com.unity.cinemachine@3.1.5": {
+      "name": "com.unity.cinemachine",
+      "displayName": "Cinemachine",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.cinemachine@5342685532bb",
+      "fingerprint": "5342685532bbf7fa5b3a314c0b7ddba04ff17eff",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "3.1.5",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.collab-proxy@2.11.3": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.collab-proxy@3351acaba9c9",
-      "fingerprint": "3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623",
+      "fingerprint": "e566cd3e762373591f6828e86f2018eed8021356",
       "editorCompatibility": "2021.3.0f1",
-      "version": "2.10.2",
+      "version": "2.11.3",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.38": {
+    "com.unity.ide.rider@3.0.39": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
-      "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.ide.rider@4504839d03f7",
+      "fingerprint": "4504839d03f7a5a4495357084a0ffd6e439892cf",
       "editorCompatibility": "2021.3.0a1",
-      "version": "3.0.38",
+      "version": "3.0.39",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.visualstudio@2.0.25": {
+    "com.unity.ide.visualstudio@2.0.26": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.ide.visualstudio@74aa435fc4bb",
-      "fingerprint": "74aa435fc4bb41890f400130ec80f271d1292fd4",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
+      "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
       "editorCompatibility": "2021.3.0a1",
-      "version": "2.0.25",
+      "version": "2.0.26",
       "source": "registry",
       "testable": false
     },
-    "com.unity.inputsystem@1.17.0": {
+    "com.unity.inputsystem@1.18.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.inputsystem@02433b2481ab",
-      "fingerprint": "02433b2481abc5c0063956fdc211f3d8c777447f",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.inputsystem@57d0e36f6123",
+      "fingerprint": "57d0e36f61231bc5a2579f37d81bf6fa02f40adc",
       "editorCompatibility": "2022.3.0a1",
-      "version": "1.17.0",
+      "version": "1.18.0",
       "source": "registry",
       "testable": false
     },
@@ -142,8 +152,8 @@
     "com.unity.render-pipelines.universal@17.3.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.render-pipelines.universal@66e99ffa09c7",
-      "fingerprint": "66e99ffa09c79634ca0cee3b85e3b9f6cdf88c0e",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.render-pipelines.universal@a6e30d1f59f5",
+      "fingerprint": "a6e30d1f59f5364f0f32d5b542626a3743ae75b6",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
       "source": "builtin",
@@ -159,21 +169,21 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.9": {
+    "com.unity.timeline@1.8.10": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
-      "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.9",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.timeline@7f8b2fb101b6",
+      "fingerprint": "7f8b2fb101b6053cc7472330401e94ff0c17b204",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.8.10",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
-      "displayName": "Unity UI",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.ugui@52e65280e89e",
-      "fingerprint": "52e65280e89ee09a5b287dc793f9464bcd213b41",
+      "displayName": "uGUI",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.ugui@11343a6274f3",
+      "fingerprint": "11343a6274f3066606b12fe045bb4fd815279686",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -192,7 +202,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -200,7 +210,7 @@
     "com.unity.modules.adaptiveperformance@1.0.0": {
       "name": "com.unity.modules.adaptiveperformance",
       "displayName": "Adaptive Performance",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.adaptiveperformance",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -208,7 +218,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -216,7 +226,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -224,7 +234,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -232,7 +242,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -240,7 +250,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -248,7 +258,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -256,7 +266,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -264,7 +274,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -272,7 +282,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -280,7 +290,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -288,7 +298,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -296,7 +306,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -304,7 +314,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -312,7 +322,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -320,7 +330,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -328,7 +338,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -336,7 +346,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -344,7 +354,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -352,7 +362,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -360,7 +370,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -368,7 +378,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -376,7 +386,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -384,7 +394,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -392,7 +402,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -400,7 +410,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -408,7 +418,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -416,7 +426,7 @@
     "com.unity.modules.vectorgraphics@1.0.0": {
       "name": "com.unity.modules.vectorgraphics",
       "displayName": "Vector Graphics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vectorgraphics",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -424,7 +434,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -432,7 +442,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -440,7 +450,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -448,7 +458,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -456,7 +466,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -464,7 +474,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -472,7 +482,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -490,8 +500,8 @@
     "com.unity.render-pipelines.core@17.3.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.render-pipelines.core@ce86d16dfe9d",
-      "fingerprint": "ce86d16dfe9d627973eff1e9329caf16c648363c",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.render-pipelines.core@d6dfd1e235d5",
+      "fingerprint": "d6dfd1e235d5156d31265ad0c7f00bd8d46c5154",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
       "source": "builtin",
@@ -500,8 +510,8 @@
     "com.unity.shadergraph@17.3.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.shadergraph@3cfe1d1f3f8c",
-      "fingerprint": "3cfe1d1f3f8cb2a422448449ea422fa1a226fded",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.shadergraph@0afb4c072efd",
+      "fingerprint": "0afb4c072efdba89e08dbb31a65a9ccba781e413",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
       "source": "builtin",
@@ -517,13 +527,23 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.common@12.0.1": {
+    "com.unity.splines@2.8.2": {
+      "name": "com.unity.splines",
+      "displayName": "Splines",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.splines@1cb7d86fc7ff",
+      "fingerprint": "1cb7d86fc7ffee63824ca302b2b8982178eeea83",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.8.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.common@12.0.2": {
       "name": "com.unity.2d.common",
       "displayName": "2D Common",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.common@51e9484895c4",
-      "fingerprint": "51e9484895c4b91b39650e3ee34a014a63860080",
-      "editorCompatibility": "6000.3.0a1",
-      "version": "12.0.1",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.2d.common@800085e896ad",
+      "fingerprint": "800085e896ad4b33b2dc3739891463543ac489d1",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "12.0.2",
       "source": "registry",
       "testable": false
     },
@@ -557,13 +577,23 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.burst@1.8.26": {
+    "com.unity.burst@1.8.27": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.burst@21aa83e7fd8f",
-      "fingerprint": "21aa83e7fd8fcc79eafc5f662d434afb183153d6",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.26",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.burst@973857688024",
+      "fingerprint": "973857688024e0c6019b60f7a3b403e8e467c4d0",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.8.27",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.settings-manager@2.1.1": {
+      "name": "com.unity.settings-manager",
+      "displayName": "Settings Manager",
+      "resolvedPath": "C:\\lion7project\\lion7platformer\\katana7\\Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86",
+      "fingerprint": "0b8638c5ce86009d785da17b17aaf629047f64ce",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.1.1",
       "source": "registry",
       "testable": false
     },
